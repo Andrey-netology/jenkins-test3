@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps{
-                git branch: 'main', credentialsId: '7107e6e5-6511-44ab-903a-387cb7a5c266', url: 'git@github.com:netology-code/mnt-homeworks-ansible.git'
+                git branch: 'main', credentialsId: '9d5feaa5-99e4-478e-86d1-e0c60624459d', url: 'git@github.com:Andrey-netology/jenkins-test3.git'
             }
         }
         stage('Install molecule') {
